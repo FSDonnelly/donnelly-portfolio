@@ -132,3 +132,78 @@ body {
   background-color: #2356ff;
   color: #fff;
 }
+
+.skill {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.chart {
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+
+  text-align: center;
+}
+
+.chart canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.chart .percent {
+  color: #fff;
+  line-height: 152px;
+  display: inline-block;
+  font-size: 35px;
+}
+
+.chart .percent:after {
+  content: '%';
+}
+
+/* Stats */
+.square-item {
+  margin-top: 30px;
+  position: relative;
+}
+
+.square-inner-container {
+  position: relative;
+  padding: 50px 15px 35px;
+  text-align: center;
+  border: 2px solid #444;
+  border-top: none;
+}
+
+.square-inner-container::before,
+.square-inner-container::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  width: 30%;
+  border-bottom: 2px solid #444;
+}
+
+.square-inner-container::before {
+  right: 0px;
+}
+
+.square-inner-container::after {
+  left: 0px;
+}
+
+.square-content h2 {
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #2356ff;
+}
+
+.square-content h3 {
+  font-size: 13px;
+  margin: 0;
+  font-weight: 600;
+}

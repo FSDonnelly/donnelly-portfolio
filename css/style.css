@@ -129,7 +129,7 @@ body {
 
 /* Skills */
 .skills-section {
-  background-color: #2356ff;
+  background-color: #2ecc71;
   color: #fff;
 }
 
@@ -199,11 +199,22 @@ body {
   font-size: 56px;
   margin-bottom: 10px;
   font-weight: 400;
-  color: #2356ff;
+  color: #2ecc71;
 }
 
 .square-content h3 {
   font-size: 13px;
   margin: 0;
   font-weight: 600;
+}
+
+.square-icon {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 40%;
+  height: 60px;
+  font-size: 45px;
+  margin-left: -20%;
+  color: #2ecc71;
 }

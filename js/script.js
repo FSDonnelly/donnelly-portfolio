@@ -4,7 +4,8 @@ $(document).ready(function() {
     play: 4000,
     pagination: false
   });
-
+  $('#slides').superslides('next'); // get next slide index
+  $('#slides').superslides('prev'); // get previous slide index
   let typed = new Typed('.typed', {
     strings: ['Web Developer', 'Student', 'Gamer', 'Programmer'],
     typeSpeed: 70,

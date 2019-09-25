@@ -128,7 +128,8 @@ body {
 }
 
 /* Skills */
-.skills-section {
+.skills-section,
+.contact-section {
   background-color: #2ecc71;
   color: #fff;
 }
@@ -165,6 +166,10 @@ body {
 }
 
 /* Stats */
+.stats-section {
+  margin: 80px;
+}
+
 .square-item {
   margin-top: 30px;
   position: relative;

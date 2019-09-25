@@ -223,3 +223,8 @@ body {
   margin-left: -20%;
   color: #2ecc71;
 }
+
+/* Contact */
+.contact-section h2 {
+  margin-bottom: 30px;
+}

@@ -8,7 +8,7 @@ $(document).ready(function() {
   $('#slides').superslides('prev'); // get previous slide index
   let typed = new Typed('.typed', {
     strings: ['Web Developer', 'Student', 'Gamer', 'Programmer'],
-    typeSpeed: 70,
+    typeSpeed: 150,
     loop: true,
     startDelay: 1000,
     showCursor: false

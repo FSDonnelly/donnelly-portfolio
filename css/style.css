@@ -228,3 +228,23 @@ body {
 .contact-section h2 {
   margin-bottom: 30px;
 }
+
+/* Portfolio */
+.filter a {
+  color: #bdc3c7;
+  border: 1px solid #bdc3c7;
+  padding: 10px 18px;
+  display: block;
+  text-decoration: none;
+}
+
+.filter li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.filter .current {
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+  color: #fff;
+}

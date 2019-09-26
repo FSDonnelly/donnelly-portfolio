@@ -110,10 +110,6 @@ body {
   letter-spacing: 7px;
 }
 
-.title-message .heading .main {
-  font-size: 50px;
-}
-
 .title-message .heading .sub {
   font-size: 23px;
 }
@@ -379,4 +375,38 @@ body {
 
 .copyright-section p {
   margin: 0;
+}
+
+/* Nav */
+#navigation {
+  background-color: #2ecc71;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+}
+
+#navigation i {
+  color: #fff;
+}
+
+#navigation a {
+  font-size: 20px;
+}
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
 }

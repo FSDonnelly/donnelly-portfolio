@@ -369,3 +369,14 @@ body {
   -ms-transform: scale(1.05, 1.05);
   transform: scale(1.05, 1.05);
 }
+
+/* Footer */
+.copyright-section {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 30px 5px;
+}
+
+.copyright-section p {
+  margin: 0;
+}

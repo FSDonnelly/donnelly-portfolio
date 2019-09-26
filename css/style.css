@@ -259,3 +259,52 @@ body {
   padding-bottom: 40px;
   width: 100%;
 }
+
+.items-container {
+  width: 100%;
+}
+
+.items li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.items li img {
+  width: 100%;
+}
+
+.items .item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.items .icons {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  margin: -20px auto 0 -47px;
+  text-align: center;
+  z-index: 3;
+}
+
+.items .icons i {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 9px;
+}
+
+.items .icons i:hover {
+  color: #2ecc71;
+}
+
+.items a {
+  width: 40px;
+  height: 40px;
+  background-color: #235c3b;
+  position: relative;
+  display: inline-block;
+  border-radius: 100px;
+}

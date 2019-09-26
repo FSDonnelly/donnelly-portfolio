@@ -7,7 +7,17 @@ $(document).ready(function() {
   $('#slides').superslides('next'); // get next slide index
   $('#slides').superslides('prev'); // get previous slide index
   let typed = new Typed('.typed', {
-    strings: ['Web Developer', 'Student', 'Gamer', 'Programmer', 'Artist'],
+    strings: [
+      'Web Developer',
+      'Front End Developer',
+      'Back End Developer',
+      'Web Designer',
+      'Web Application Developer',
+      'Front End Engineer',
+      'Back End Engineer',
+      'Website Designer',
+      'Full Stack Pro'
+    ],
     typeSpeed: 150,
     loop: true,
     startDelay: 1000,

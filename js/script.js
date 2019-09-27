@@ -1,3 +1,7 @@
+$(window).on('load', function() {
+  $('.loader').fadeOut(4000);
+});
+
 $(document).ready(function() {
   $('#slides').superslides({
     animation: 'fade',
@@ -103,6 +107,14 @@ $(document).ready(function() {
       }
     });
     return false;
+  });
+
+  $('#navigation li a').click(function(e) {
+    e.preventDefault();
+
+    let targetElement = $(this).attr('href');
+    let targetPosition = $(targetElement).offset().top;
+    $('html, body').animate({ scrollTop: targetPosition - 150 }, 'slow');
   });
 
   const nav = $('#navigation');

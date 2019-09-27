@@ -1,5 +1,7 @@
 $(window).on('load', function() {
-  $('.loader').fadeOut(4000);
+  $('.loader .inner').fadeOut(4000, function() {
+    $('.loader').fadeOut(4500);
+  });
 });
 
 $(document).ready(function() {
